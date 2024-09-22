@@ -3,7 +3,7 @@ import { getConversion } from "../../services/fetchCurrancy";
 
 import styles from "./Form.module.css";
 
-import sprite from "../../img/sprite.svg";
+import sprite from "../../assets/sprite.svg";
 import { InputBox } from "../InputBox/InputBox";
 
 export const Form = ({ allCurrencies }) => {
