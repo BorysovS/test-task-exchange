@@ -1,0 +1,31 @@
+.form_select {
+  width: 65px;
+  /* height: 20px; */
+  padding: 2px 1px;
+  transition: border-color 0.3s ease-in-out;
+  border-color: #0062d3;
+}
+
+.form_select:hover,
+.form_select:focus {
+  border-color: #00ddff;
+
+  outline: none;
+}
+
+.form_input {
+  width: 300px;
+  height: 20px;
+  margin-right: 24px;
+  padding: 1px 12px;
+  border-color: #0062d3;
+
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form_input:hover,
+.form_input:focus {
+  border-color: #00ddff;
+  outline: none;
+}
