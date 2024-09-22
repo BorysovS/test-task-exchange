@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { InputBox } from "../inputBox/inputBox";
 import { getConversion } from "../../services/fetchCurrancy";
 
 import styles from "./Form.module.css";
 
 import sprite from "../../img/sprite.svg";
+import { InputBox } from "../InputBox/InputBox";
 
 export const Form = ({ allCurrencies }) => {
   const [from, setFrom] = useState("UAH");
